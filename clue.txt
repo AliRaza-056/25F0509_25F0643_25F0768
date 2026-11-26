@@ -1,0 +1,22 @@
+========================================================================
+             THE LOCKER HEIST: DETECTIVE CASE BRIEFING & CLUE JOURNAL   
+========================================================================
+CASE FILE #1924-HEIST: PARIS LAURENT MANOR
+VICTIM: Monsieur Henri Laurent (Wealthy French Art & Gem Merchant)
+CRIME: Breach of High-Security Titanium Locker #77 during Winter Gala.
+STOLEN ASSETS:
+ 1. The Star of Versailles (50-carat blue diamond valued at 12M Euros).
+ 2. Laurent Corporation Offshore Financial Cipher Ledger.
+
+THE TWO MASTER CIPHERS:
+ * CIPHER 1 (7 Letters): Discovered across the 7 Manor Crime Scene Locations.
+   (Points toward the method and container of the robbery: 'LOCKERS')
+ * CIPHER 2 (8 Letters): Discovered across the 8 Interrogated Suspects.
+   (Points toward the dark motive behind the family conspiracy: 'BETRAYAL')
+
+INVESTIGATION PROTOCOL:
+ - Search all 7 locations to gather Word 1 tiles.
+ - Interrogate all 8 suspects to gather Word 2 tiles.
+ - Interview the Victim (requires Credibility >= 80) for overarching insight.
+ - Observe credibility thresholds: House Help (0+), Business (50+), PA (60+), Close Relations (75+).
+========================================================================
