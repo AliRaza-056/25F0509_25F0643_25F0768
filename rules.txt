@@ -1,0 +1,38 @@
+========================================================================
+                      THE LOCKER HEIST - OFFICIAL RULES MANUAL          
+========================================================================
+1. DETECTIVE CAPABILITIES & LIMITS:
+   - You begin with 100 Credibility and a maximum of 25 Turns.
+   - Every investigation action or interrogation consumes 1 Turn.
+   - If your Turns reach 25 or your Credibility falls to 0, the case collapses
+     and the game ends in DEFEAT.
+
+2. CRIME SCENE INVESTIGATIONS (WORD 1 - 7 LETTERS):
+   - Each unexplored location yields 1 Scrabble tile for Word 1.
+   - Locations cannot be searched twice (AlreadyVisitedException).
+
+3. SUSPECT INTERROGATIONS (WORD 2 - 8 LETTERS):
+   - Suspects belong to specific social tiers with credibility requirements:
+     * House Help (Pierre, Boris, Elena): Credibility >= 0
+     * Business Relations (Arthur, Marcus): Credibility >= 50
+     * Personal Assistant (Vivienne Moreau): Credibility >= 60
+     * Close Relations (Chloe, Julian): Credibility >= 75
+     * Victim (Henri Laurent): Credibility >= 80
+   - Attempting to interrogate a character without meeting their required
+     credibility triggers LowCredibilityException, costs 1 Turn, and penalizes
+     you -5 Credibility!
+
+4. SCRABBLE BOARD CIPHER SOLVING:
+   - Tiles gathered from locations and suspects are stored in your Tile Rack.
+   - You can place tiles into board positions (Row 1: 1-7, Row 2: 1-8).
+   - When a row is full, you can validate the word.
+   - An incorrect word submission triggers InvalidWordException, costs 1 Turn,
+     and inflicts a severe -10 Credibility penalty!
+
+5. ACCUSING THE CULPRIT & WIN CONDITIONS:
+   - At the start of every game, one of the 8 suspects is dynamically chosen
+     as the true mastermind culprit.
+   - To WIN, you must identify the correct culprit and successfully solve
+     both Scrabble ciphers.
+   - A false accusation inflicts -20 Credibility and expends 2 extra turns!
+========================================================================
