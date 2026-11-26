@@ -1,0 +1,25 @@
+========================================================================
+                   THE LOCKER HEIST - ABOUT & ARCHITECTURE              
+========================================================================
+Project: The Locker Heist - Production C++ Mystery Console Application
+Architecture Highlights:
+ * ZERO STL CONTAINER / ALGORITHM COMPLIANCE:
+   Built from the ground up without <vector>, <list>, <map>, or <algorithm>.
+   All dynamic sizing is governed by a custom DynamicArray<T> template with
+   deep-copy semantics, Rule of Three/Five compliance, and dynamic reallocation.
+ * DIAMOND INHERITANCE RESOLVED:
+   The Personal Assistant (PA) class derives from both BusinessRelations and
+   CloseRelations, utilizing virtual base inheritance (virtual public Suspect
+   and virtual public Character) to eliminate duplicate base instances.
+ * SINGLETON PATTERN:
+   GameEngine is structured as a thread-safe static Meyers Singleton.
+ * OPERATOR OVERLOADING:
+   - operator<< and operator>> for stream input/output.
+   - operator== for Tile and TileRack letter comparisons.
+   - operator+ for TileRack merging operations.
+ * FRIEND CLASS RELATIONSHIPS:
+   GameEngine declared as friend of Character for direct privileged access.
+ * CUSTOM EXCEPTION HANDLING:
+   GameException base class with derived InvalidWordException, RackFullException,
+   InvalidPositionException, LowCredibilityException, AlreadyVisitedException.
+========================================================================
