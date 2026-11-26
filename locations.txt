@@ -1,0 +1,9 @@
+# THE LOCKER HEIST - CRIME SCENE LOCATIONS FILE
+# Format: NAME|LETTER|BOARD_POS|ROW|DESCRIPTION
+Master Bedroom Vault|L|0|0|Inside Henri's walk-in titanium vault, Locker #77 stands wide open. Scratched upon the brass latch is a stamped letter 'L'.
+Private Study & Desk|O|1|0|Henri's mahogany desk is ransacked. A scorched piece of blotting paper inside the desk blotter reveals an imprinted letter 'O'.
+Wine Cellar Archive|C|2|0|Behind a vintage 1945 Bordeaux cask, hidden muddy footsteps lead toward an air grate. A dropped monogrammed cufflink marks slot 'C'.
+Conservatory Garden|K|3|0|A shattered stained-glass window panel facing the courtyard. Muddy tire treads and a discarded lockpick bearing engraving 'K'.
+Grand Library Archives|E|4|0|Rare first-edition books are overturned on the parquet floor. An open safe manual holds a silk ribbon bookmark on letter 'E'.
+Security Monitoring Room|R|5|0|The digital feeds were looped at 11:45 PM. The override security console terminal flashes an encryption code 'R'.
+Underground Safe Tunnel|S|6|0|A damp brick passage running beneath the fountain. Fresh crowbar marks and a chalk-drawn symbol 'S' point to the escape hatch.
